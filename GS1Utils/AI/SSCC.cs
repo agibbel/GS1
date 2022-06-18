@@ -75,7 +75,7 @@ namespace Tepliakov.GS1Utils.AI
             {
                 int prefixlen = 1 + _gcp.Length;
                 if (prefixlen < 13)
-                    return _reference.Substring(prefixlen);
+                    return _reference.Substring(prefixlen - 4);
                 else
                     return string.Empty;
             }
