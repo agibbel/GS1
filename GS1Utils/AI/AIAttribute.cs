@@ -58,11 +58,11 @@ namespace Tepliakov.GS1Utils.AI
         /// <summary>
         /// Описание AI
         /// </summary>
-        /// <param name="ai"></param>
-        /// <param name="title"></param>
-        /// <param name="description"></param>
-        /// <param name="minLength"></param>
-        /// <param name="maxLength"></param>
+        /// <param name="ai">AI</param>
+        /// <param name="title">Человекочитаемый заголовок</param>
+        /// <param name="description">Описание</param>
+        /// <param name="minLength">Минимальная длина данных</param>
+        /// <param name="maxLength">Максимальная длина данных</param>
         public AIAttribute(string ai, string title, string description, int minLength, int maxLength)
         {
             AI = ai;
@@ -75,10 +75,10 @@ namespace Tepliakov.GS1Utils.AI
         /// <summary>
         /// Описание AI
         /// </summary>
-        /// <param name="ai"></param>
-        /// <param name="title"></param>
-        /// <param name="description"></param>
-        /// <param name="length"></param>
+        /// <param name="ai">AI</param>
+        /// <param name="title">Человекочитаемый заголовок</param>
+        /// <param name="description">Описание</param>
+        /// <param name="length">Длина данных</param>
         public AIAttribute(string ai, string title, string description, int length)
         {
             AI = ai;

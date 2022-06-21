@@ -3,7 +3,7 @@ using Tepliakov.GS1Utils;
 using AI = Tepliakov.GS1Utils.AI;
 using URI = Tepliakov.GS1Utils.URI;
 
-GS1.Init();
+GS1Utlis.Init();
 while (true)
 {
     try

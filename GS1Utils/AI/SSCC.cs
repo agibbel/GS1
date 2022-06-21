@@ -113,9 +113,8 @@ namespace Tepliakov.GS1Utils.AI
         /// <param name="extension">Extension digit</param>
         /// <param name="gcp">GCP</param>
         /// <param name="reference">Item reference</param>
-        /// <exception cref="ArgumentNullException">исходная строка не содержит данных</exception>
-        /// <exception cref="ArgumentOutOfRangeException">размер исходной строки не соответствует поддерживаемому</exception>
-        /// <exception cref="ArgumentException">содержимое исходной строки некорректно</exception>
+        /// <exception cref="ArgumentOutOfRangeException">Длина одного из параметров не соответствует ожидаемому</exception>
+        /// <exception cref="ArgumentException">Содержимое одного из параметров некорректно</exception>
         public SSCC(char extension, string gcp, string reference) : base()
         {
             Extension = extension;
